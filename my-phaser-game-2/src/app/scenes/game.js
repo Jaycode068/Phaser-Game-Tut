@@ -23,6 +23,7 @@ class Game extends Phaser.Scene {
       frameWidth: 32,
       frameHeight: 32,
     });
+    this.load.image('cloud', 'assets/images/cloud.png');
     this.load.bitmapFont("arcade", "assets/fonts/arcade.png", "assets/fonts/arcade.xml");
   }
 
